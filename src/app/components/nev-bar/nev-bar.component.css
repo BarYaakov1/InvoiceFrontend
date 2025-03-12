@@ -1,0 +1,26 @@
+.example-spacer {
+    flex: 1 1 auto;
+    background-color: #3b73ee; /* Change to any color you like */
+
+}
+
+.img {
+    width : 10px;
+    height: 10px; 
+}
+
+.imgStyle{
+    height:50px;    
+}
+  
+.mat-toolbar{
+    background-color: #3b73ee;
+    height:100px;
+    width: 100%;
+}
+
+.flextoolbar{
+    display:flex;
+    align-items: flex-start;
+}
+  

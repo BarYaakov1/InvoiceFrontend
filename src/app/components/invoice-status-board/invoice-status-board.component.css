@@ -1,0 +1,45 @@
+.text-lg {
+    font-size: 1.25rem;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .rounded {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    flex-direction: row-reverse;
+  }
+
+  .p-4 {
+    padding: 16px;
+    position: absolute;
+    top: 74px;
+    left: 83%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 1px 10px;
+    color: black;
+    font-size: small;
+    border-radius: 5px;
+    font-family: calibri;
+}
+
+  .justify-around {
+    justify-content: space-around;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  .style-status{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+  }
+
+  

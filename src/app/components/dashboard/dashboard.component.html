@@ -1,0 +1,7 @@
+<div class="dashboard-style">
+  <div class="flex-status-and-search">
+    <app-invoice-search (searchResults)="updateInvoices($event)"></app-invoice-search>
+    <app-invoice-status-board [invoices]="filteredInvoices"></app-invoice-status-board>
+    <app-invoice-toggle [invoices]="filteredInvoices"></app-invoice-toggle> 
+  </div>
+</div>

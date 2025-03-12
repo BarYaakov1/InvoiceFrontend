@@ -1,0 +1,23 @@
+<div class="container" [ngClass]="{ 'split-view': isSplitView }" dir="rtl">
+
+  <div class="toggle-box bg-white shadow-md rounded">
+    <button (click)="setView(false)" [class.active]="!isSplitView">
+      <img src="assets/img/full-view-icon.jpg" class="toggle-icon">
+    </button>
+    <button (click)="setView(true)" [class.active]="isSplitView">
+      <img src="assets/img/split-view-icon.jpg" class="toggle-icon">
+    </button>
+  </div>
+
+  <div class="invoice-table-container">
+    <app-invoice-table 
+      [invoices]="invoices" 
+      (invoiceSelected)="onInvoiceSelected($event)">
+    </app-invoice-table>
+  </div>
+
+  <div class="pdf-container" *ngIf="isSplitView && selectedInvoice">
+    <iframe src="assets/mock-invoice.pdf" width="100%" height="100%"></iframe>
+  </div>
+
+</div>

@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    text-align: right;
+    padding: 10px;
+  }
+  th {
+    background-color: #ebf4ff;
+  }
+  .img {
+    width : 10px;
+    height: 10px; 
+}
+
+.inovice-table-container {
+  margin: 0 30px auto;
+ }
+
+.flex-status-and-search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:110px 40px 0px 0px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%;
+  direction: rtl; 
+}
+.dashboard-style {
+  height: 100vh;  
+  width: 100%;    
+  background-color: #f3f4f6;  
+}

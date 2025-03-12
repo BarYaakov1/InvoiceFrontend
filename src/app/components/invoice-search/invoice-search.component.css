@@ -1,0 +1,88 @@
+.search-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  mat-form-field {
+    width: 250px;
+  }
+  .text-lg {
+    font-size: 1.25rem;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .rounded {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    flex-direction: row-reverse;
+  }
+
+  .invoice-table{
+    padding: 16px;
+    position: absolute;
+    top: 74px;
+    left: 83%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px;
+}
+  .justify-around {
+    justify-content: space-around;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  .style-status{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+  }
+  .search-container {
+    display: flex;
+    gap: 11px;
+    padding: 16px;
+    position: absolute;
+    top: 74px;
+    left: 35%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px;
+    flex-wrap: revert;
+    background: white;
+    padding-top: -19px;
+    border-radius: 24px;
+    gap: 29px;
+    padding: 15px 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    flex-direction: row-reverse;
+    padding-left: 38px;
+    padding-right: 23px;
+}
+
+
+.btn-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 8px; 
+  }
+  
