@@ -12,15 +12,15 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MatTableModule } from '@angular/material/table';
 import { InvoiceSummaryComponent } from './components/invoice-status-board/invoice-status-board.component';
 import { InvoiceToggleComponent } from './components/invoice-toggle/invoice-toggle.component';
-import { InvoiceTableComponent } from './components/invoice-table/invoice-table.component'; // ✅ Import MatTableModule
+import { InvoiceTableComponent } from './components/invoice-table/invoice-table.component'; 
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatDatepickerToggle } from '@angular/material/datepicker';
-import { MatNativeDateModule } from '@angular/material/core'; // <-- Import this
+import { MatNativeDateModule } from '@angular/material/core'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle'; // ✅ Import this
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'; 
 
 @NgModule({
   declarations: [AppComponent,
